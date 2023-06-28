@@ -1,0 +1,15 @@
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\bin\Debug\net7.0\C# Basics.exe
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\bin\Debug\net7.0\C# Basics.deps.json
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\bin\Debug\net7.0\C# Basics.runtimeconfig.json
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\bin\Debug\net7.0\C# Basics.dll
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\bin\Debug\net7.0\C# Basics.pdb
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.csproj.AssemblyReference.cache
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.AssemblyInfoInputs.cache
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.AssemblyInfo.cs
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.csproj.CoreCompileInputs.cache
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.dll
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\refint\C# Basics.dll
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.pdb
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\C# Basics.genruntimeconfig.cache
+C:\Users\Jordan.Glover\Documents\Jordan-workspace\Online Coursework\Udemy\C# Fundamentals\C# Basics\obj\Debug\net7.0\ref\C# Basics.dll
