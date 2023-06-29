@@ -1,6 +1,8 @@
+using System.Text.RegularExpressions;
+
 public class FileIoExamples
 {
-    
+
 
     public void FileFileInfoDemo()
     {
@@ -81,5 +83,66 @@ public class DirectoryPathDemo
         Console.WriteLine("Directory Name: " + Path.GetDirectoryName(path));
 
         // For more info about Path class, see https://docs.microsoft.com/en-us/dotnet/api/system.io.path?view=net-7.0
+    }
+
+    public void FileIoExercise1()
+    {
+        var relativePath = "tempfolder\\myfile.md";
+        var fullPath = Path.Combine(Directory.GetCurrentDirectory(), relativePath);
+
+        var fileInfo = new FileInfo(fullPath);
+        using (StreamReader stream = fileInfo.OpenText())
+        {
+            string? line;
+            string text = "";
+            while ((line = stream.ReadLine()) != null)
+            {
+                if (string.IsNullOrEmpty(line) || line != Environment.NewLine)
+                {
+                    text += line + " ";
+                }
+            }
+            Console.WriteLine($"Text: {text}");
+            Console.WriteLine($"Word count: {countWords(text)}");
+        }
+    }
+
+    public int countWords(string input)
+    {
+        var words = input.Split(new string[] {"  ", " "}, StringSplitOptions.RemoveEmptyEntries);
+        // foreach (var word in words)
+        //     Console.WriteLine($"-{word}- ");
+        return words.Length;
+    }
+
+    public void FileIoExercise2()
+    {
+        var relativePath = "tempfolder\\myfile.md";
+        var fullPath = Path.Combine(Directory.GetCurrentDirectory(), relativePath);
+
+        var fileInfo = new FileInfo(fullPath);
+
+        using (StreamReader reader = fileInfo.OpenText())
+        {
+            var allText = reader.ReadToEnd();
+            Console.WriteLine($"Longest word from the text: \n \"{allText}\" \n is {getLongestWord(allText)}");
+        }
+    }
+
+    public string getLongestWord(string input)
+    {
+        int longest = 0;
+        int indexOfLongest = 0;
+        var words = input.Split();
+        foreach (var word in words.Select((value, i) => new { value, i }))
+        {
+            string wordSanitized = Regex.Replace(word.value, "[^a-zA-Z0-9]", "");
+            if (wordSanitized.Length > longest)
+            {
+                longest = wordSanitized.Length;
+                indexOfLongest = word.i;
+            }
+        }
+        return Regex.Replace(words[indexOfLongest], "[^a-zA-Z0-9]", "");
     }
 }
